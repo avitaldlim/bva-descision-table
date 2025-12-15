@@ -22,7 +22,7 @@ public class MinCalculatorTest {
 	 @Test
 	    void testAIsOne_shouldReturnMinimum() {
 	        // arrange
-	        int a = 10;    // ערך גבול תקין
+	        int a = 15;    // ערך גבול תקין
 	        int b = 50;
 	        int c = 50;
 	        int d = 50;
@@ -32,6 +32,6 @@ public class MinCalculatorTest {
 	        int result = MinCalculator.findMin(a, b, c, d, e);
 
 	        // assert
-	        assertEquals(10, result);   // 1 הוא הערך המינימלי
+	        assertEquals(15, result);   // 1 הוא הערך המינימלי
 	    }
 }
